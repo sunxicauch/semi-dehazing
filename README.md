@@ -26,7 +26,7 @@ You can test you model on RESIDE SOTS [dataset](https://sites.google.com/view/re
 python test.py --dataroot ./datasets/dehazing --name run_id_1  --learn_residual --which_model_netG EDskipconn --gpu_id 0 --which_epoch latest
 ```
 ## Prediction
-You can predict on hazy images using our released [model](https://pan.baidu.com/s/1fWyCaR1Vi6GDhwKntl8JQQ 提取码:vqpc)
+You can predict on hazy images using our released model. (https://pan.baidu.com/s/1fWyCaR1Vi6GDhwKntl8JQQ 提取码:vqpc)
 ```
 python pred.py --dataroot ./datasets/real/test --name run_id_1  --learn_residual --which_mo del_netG EDskipconn --gpu_id 0 --which_epoch latest
 ```
