@@ -23,7 +23,7 @@ python -m visdom.server -port 8097
 ## Test
 You can test you model on RESIDE SOTS [dataset](https://sites.google.com/view/reside-dehaze-datasets/reside-v0).
 ```
-python test.py --dataset ./datasets/dehazing --name run_id_1  --learn_residual --which_model_netG EDskipconn --gpu_id 0 --no_html --which_epoch latest
+python test.py --dataroot ./datasets/dehazing --name run_id_1  --learn_residual --which_model_netG EDskipconn --gpu_id 0 --which_epoch latest
 ```
 ## Refenrece:
 ```
